@@ -1,0 +1,39 @@
+.logo{
+    max-width: 10rem; 
+ }
+ .bg-celeste{
+   --bs-bg-opacity: 1;
+   background-color: #ffffff;
+ }
+ 
+ .me-auto nav.link{
+   text-align: center;
+ }
+ 
+ .navbar .nav-link {
+   font-size: 25px;
+ }
+ 
+ 
+ .navbar {
+   box-shadow: 0 4px 8px rgba(139, 139, 139, 0.3); 
+ }
+ 
+
+ @media (max-width: 430px) {
+  .logo {
+    max-width: 6rem; /* Ajusta el tamaño del logo para pantallas pequeñas */
+  }
+
+  .navbar .nav-link {
+    font-size: 20px; /* Reduce el tamaño de fuente en pantallas pequeñas */
+  }
+
+  .me-auto nav.link {
+    text-align: left; /* Alinea el texto a la izquierda para pantallas pequeñas */
+  }
+
+  .navbar {
+    box-shadow: 0 2px 4px rgba(139, 139, 139, 0.3); /* Reduce la sombra en pantallas pequeñas */
+  }
+}

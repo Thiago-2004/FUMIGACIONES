@@ -1,0 +1,63 @@
+.ser{
+    text-align: center;
+    padding: 20px;
+    background-color:   #2eb440;
+    color: #fff;
+    margin-top: 30px;
+  }
+
+  .card img{
+    height: 250px;
+  }
+  
+  
+  .tit{
+    font-size: 35px;
+     text-align: center;
+     margin-top: 20px;
+     background-color:  #2eb440 ;
+     padding: 30px;
+     color: #fff;
+  }
+  
+  .info{
+      /* background-color: antiquewhite; */
+      margin-top: 30px;
+      font-size: 20px;
+  }
+
+
+  .card-group{
+    margin-bottom: 30px;
+  }
+
+
+  .accordion{
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .accordion-button:focus{
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 134, 65) ;
+  }
+
+  .accordion-button:hover{
+    background-color: rgb(204, 204, 204);
+  }
+
+
+  @media (max-width: 430px) {
+    .card img {
+      height: 40vh;
+    }
+  
+    .tit {
+      font-size: 24px;
+      padding: 15px;
+    }
+  
+    .info {
+      font-size: 16px;
+    }
+  }

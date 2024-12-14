@@ -1,0 +1,174 @@
+.Carousel img{
+    height: 70vh;
+    margin-top: 20px;
+} 
+
+
+
+.linea{
+    border: none;
+    height: 2px;
+    background-color: #00a013; 
+    margin: 20px 0;
+}
+
+
+
+.elegirnos{
+color:rgb(255, 255, 255);
+padding: 10px;
+border-radius: 5px;           
+background-image: linear-gradient(to bottom right, rgb(0, 184, 0), rgb(32, 146, 47));
+}
+
+.certificados{
+background-color:rgb(65, 134, 65);
+padding: 20px;
+color: white;
+border-radius: 5px;
+}
+
+.col-6 a{
+color: #00a013;
+}
+
+
+.personal{
+color:rgb(255, 255, 255);
+padding: 10px;
+border-radius: 5px;           
+background-image: linear-gradient(to bottom right, rgb(0, 184, 0), rgb(32, 146, 47));
+}
+
+
+.lista p{
+text-align: left;
+padding-left: 20px;
+margin-top: 23px;
+}
+
+.lista img{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+float: right;
+width: 110px;
+height: 200px;
+}
+
+
+
+.texto{
+padding: 5px;
+background-color: rgb(211 211 211 / 29%);
+font-size: 20px;
+border-radius: 10px;
+}
+
+.zonas{
+color: #00a013;
+}
+
+.zonas b{
+color: black;
+}
+
+.col h3{
+color: #000000;
+
+}
+
+.sec .d-block{
+    height: 60vh;
+}
+
+
+/* @media (max-width: 430px) {
+    .hero {
+        width: 100%;
+        height: 932px;
+    }
+
+    .Carousel img {
+        height: 60vh;
+        margin-top: 10px;
+    }
+
+    .lista img {
+        width: 80px;
+        height: 150px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .certificados, .personal {
+        padding: 10px;
+    }
+
+    .col h3 {
+        font-size: 18px;
+    }
+} */
+
+/* @media (max-width: 430px) {
+    .hero {
+        width: 100%;
+        height: 932px;
+    }
+
+    .Carousel img {
+        height: 60vh;
+        margin-top: 10px;
+    }
+
+    .lista img {
+        width: 80px;
+        height: 150px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .certificados, .personal {
+        padding: 10px;
+    }
+
+    .col h3 {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .Carousel img {
+        height: 50vh; 
+        margin-top: 15px;
+    }
+
+    .lista img {
+        width: 90px;
+        height: 160px;
+    }
+
+    .texto {
+        font-size: 18px;
+    }
+
+    .certificados, .personal {
+        padding: 15px;
+    }
+
+    .col h3 {
+        font-size: 20px;
+    }
+}
+ */
