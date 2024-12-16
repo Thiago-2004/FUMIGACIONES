@@ -43,7 +43,7 @@ import Seccion from './componentes/Seccion/Seccion';
 import Footer from './componentes/Footer/footer';
 import ContactForm from './componentes/Contacto/Contacto';
 import Servicios from './componentes/Servicios/Servicios.jsx';
-import Nosotros from './componentes/Nosotros/Nosotro.jsx';
+import Nosotros from './componentes/Nosotros/Nosotros.jsx';
 
 function App() {
   return (
