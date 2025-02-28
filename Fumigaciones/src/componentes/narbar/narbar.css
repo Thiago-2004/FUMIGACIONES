@@ -1,4 +1,4 @@
-.logo{
+/*.logo{
     max-width: 10rem; 
  }
  .bg-celeste{
@@ -22,18 +22,58 @@
 
  @media (max-width: 430px) {
   .logo {
-    max-width: 6rem; /* Ajusta el tamaño del logo para pantallas pequeñas */
+    max-width: 6rem; /* Ajusta el tamaño del logo para pantallas pequeñas
+  } */
+
+  /*.navbar .nav-link {
+    font-size: 20px; /* Reduce el tamaño de fuente en pantallas pequeñas  
+ }*/
+
+   /*.me-auto nav.link {
+    text-align: left; Alinea el texto a la izquierda para pantallas pequeñas 
+  }*/
+
+  /*.navbar {
+    box-shadow: 0 2px 4px rgba(139, 139, 139, 0.3);  Reduce la sombra en pantallas pequeñas 
+  }
+}*/
+
+
+.logo {
+  max-width: 10rem;
+}
+
+.bg-celeste {
+  --bs-bg-opacity: 1;
+  background-color: #ffffff;
+}
+
+.navbar .nav-link {
+  font-size: 25px;
+  text-align: center;
+  color: #333; /* Color del texto */
+}
+
+.navbar .nav-link:hover {
+  color: #007bff; /* Cambiar color al pasar el mouse */
+}
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(139, 139, 139, 0.3);
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .logo {
+    max-width: 6rem; /* Tamaño reducido del logo */
   }
 
   .navbar .nav-link {
-    font-size: 20px; /* Reduce el tamaño de fuente en pantallas pequeñas */
-  }
-
-  .me-auto nav.link {
-    text-align: left; /* Alinea el texto a la izquierda para pantallas pequeñas */
+    font-size: 20px; /* Reduce el tamaño de las fuentes */
+    text-align: left; /* Alinea el texto del menú hamburguesa a la izquierda */
   }
 
   .navbar {
-    box-shadow: 0 2px 4px rgba(139, 139, 139, 0.3); /* Reduce la sombra en pantallas pequeñas */
+    box-shadow: 0 2px 4px rgba(139, 139, 139, 0.3);
   }
 }
